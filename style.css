@@ -1,0 +1,22 @@
+
+#container{
+    width: 700px;
+    height: 800px;
+    padding: 15px;
+    background-color: darkorange;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-around;
+}
+
+.item{
+    box-sizing: border-box;
+    background-color: chartreuse;
+    width: 200px;
+    height: 200px;
+    border: 10px solid red;
+    padding:10px ;
+    display: block;
+}
